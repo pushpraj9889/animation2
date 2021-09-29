@@ -1,0 +1,28 @@
+.section{
+    height: 200px;
+     width: 300px;
+    margin:50px auto;
+ 
+     
+}
+ div{
+     width:40px;
+     height: 30px;
+     border: 2px solid red;   
+     border-radius: 10px;
+     margin:10px;
+     background-color: yellow;
+     animation: 2s pushpraj;
+ }
+ @keyframes pushpraj {
+     50%{
+         width:100%;
+     }
+     78%{
+         background-color: violet;
+         height: 300px;
+     }
+
+
+     
+ }
